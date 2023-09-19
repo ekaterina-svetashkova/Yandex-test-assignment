@@ -29,7 +29,7 @@ worksheet = spreadsheet.get_worksheet(0)
 # настраиваем логирование
 logging.basicConfig(filename="my-logfile.log", format="%(asctime)s - %(message)s", filemode="a", level=logging.WARNING)
 logging.getLogger().addHandler(logging.StreamHandler())
-logging.warning("Записываются сообщения с предупреждениями.")
+logging.warning("В лог записываются сообщения с предупреждениями.")
 
 
 
